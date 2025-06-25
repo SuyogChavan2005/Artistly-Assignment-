@@ -7,7 +7,7 @@ const MyAppointments = () => {
 
   return (
     <div>
-      <p className='pb-3 mt-12 font-medium text-zinc-700 border-b'>My Appointments</p>
+      <p className='pb-3 mt-12 font-medium text-zinc-700 border-b'>My Appointments (Because the entire backend could not be completed in two days, the My Appointment page is merely responsive and not dynamic.)</p>
       <div>
         {doctors.slice(0,5).map((item,index)=>(
           <div className='grid grid-cols-[1fr_2fr] gap-4 sm:flex sm:gap-6 py-2 border-b' key={index}>
