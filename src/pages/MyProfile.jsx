@@ -88,6 +88,7 @@ const MyProfile = () => {
           : <button onClick={()=>setIsEdit(true)}>Edit</button>
         }
       </div>
+      <div> <h1> This Page was maded in rush duse to which its css may not work </h1></div>
     </div>
   )
 }
